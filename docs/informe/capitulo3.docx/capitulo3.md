@@ -14,6 +14,9 @@
 | US04 | Medición de caudal | Como jefe de planta, Quiero medir el caudal en tiempo real Para detectar fugas o consumos anómalos. | Escenario 01: Desvío en caudal. Dado un flujo activo, Cuando el caudal se desvía del rango esperado, Entonces veo en la aplicación web la información de la variación | EP02 |
 | US05 | Parámetros de calidad | Como operador de empresa de preparación de bebidas, Quiero visualizar la temperatura y densidad Para asegurar que el proceso se mantenga en óptimas condiciones. | Escenario 01: Visualización de temperatura y densidad. Dado que el sensor de calidad está activo, Cuando reviso el dashboard en la aplicación web, Entonces veo los valores de temperatura y densidad en tiempo real | EP02 |
 | US06 | Multitanque | Como jefe de planta, Quiero monitorear múltiples tanques en paralelo Para tener control integral de toda la operación. | Escenario 01: Visualización de tanques conectados. Dado que tengo varios tanques con sensores conectados, Cuando accedo al panel principal en la aplicación web, Entonces visualizo el estado de todos con un identificador único | EP02 |
+| EP03 | Alertas y Notificaciones | Notificar a los usuarios sobre cambios críticos en niveles, caudales o parámetros de calidad mediante alertas |  |  |
+| US07 | Alertas por bajo nivel de agua en tanque | Como usuario, Quiero recibir alertas cuando el nivel baje de un límite Para evitar quedarme sin líquido. | Escenario 01: Alerta por nivel bajo. Dado que configuro el mínimo, Cuando el nivel cae por debajo de ese límite, Entonces recibo una notificación que me alerta. | EP03 |
+| US08 | Notificación por fuga de agua | Como , Quiero recibir alertas cuando  Para . | Escenario 01: Alerta por . | EP03 |
 
 
 ## 3.2. Impact Mapping
